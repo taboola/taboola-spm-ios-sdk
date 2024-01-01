@@ -12,11 +12,8 @@ let package = Package(
         )
     ],
     targets: [
-//        .binaryTarget(name: "TaboolaSDK",
-//                      url: "https://dl.dropbox.com/scl/fi/p41zxtmdj5tzbl1i7acar/TaboolaSDK.xcframework.zip?rlkey=hc9u9pqgx1gny0mytaho2107f&dl=0",
-//                      checksum: "850def80835d91a5e625c990eda8c1052b32581c1a0c82019e734a9795626851")
         .binaryTarget(name: "TaboolaSDK",
-                      url: "https://www.dropbox.com/scl/fi/v45h3q62mq2fexczgold5/TaboolaSDK.xcframework.zip?rlkey=9w7124233bor7k0tffpvilr4u&dl=0",
-                      checksum: "d5a92d98b3c8c217886ce3805afe6a5434ad79a1ea2efb17d05247beff28fa79")
+                      url: "https://www.dropbox.com/scl/fi/4b3bmz1kr8gm0dvbdvzz5/TaboolaSDK.xcframework.zip?rlkey=cop9v8mx41tgfazjitjjluiwa&dl=0",
+                      checksum: "dcfe6d1340eea934d4394a7f8fd0103972d6b9e9a287bf34c932f2dcc5cb649c")
     ]
 )
