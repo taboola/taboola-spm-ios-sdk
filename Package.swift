@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "TaboolaSDK",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "TaboolaSDK",
-                      url: "https://taboola-mobile-sdk.s3.us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/beta/4.0.10/adx-beta-1/TaboolaSDK.xcframework.zip",
-                      checksum: "198ae367c2d125f167ede0fa1d5298a493206c59dff594a92c87b4f19805a8c3")
+                      url: "https://taboola-mobile-sdk.s3-us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/official/4.0.10/TaboolaSDK.xcframework.zip",
+                      checksum: "f2304e09543237f6208662926de415e5a48ffcbef81259a24474628e42397440")
     ]
 )
