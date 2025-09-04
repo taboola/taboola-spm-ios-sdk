@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "TaboolaSDK",
-                      url: "https://taboola-mobile-sdk.s3-us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/official/3.8.50/TaboolaSDK.xcframework.zip",
-                      checksum: "4f00f04e618116d47938b25a8d4ae8006b1b9631c40fd4be70768d21c7c3626c")
+                      url: "https://taboola-mobile-sdk.s3-us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/official/4.0.19/TaboolaSDK.xcframework.zip",
+                      checksum: "76f405f28f3cf723c893abe7b0e76919d6f70eb2b8a11bf8d06cece1f1adcb08")
     ]
 )
