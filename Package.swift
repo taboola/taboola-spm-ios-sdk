@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 let package = Package(
     name: "TaboolaSDK",
@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "TaboolaSDK",
-                      url: "https://taboola-mobile-sdk.s3-us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/official/4.3.0/TaboolaSDK.xcframework.zip",
-                      checksum: "48e43cc54daa6d42c40814120724e93f443d514f489797b816c9428e663df608")
+                      url: "https://taboola-mobile-sdk.s3-us-west-2.amazonaws.com/ios/sdk-binaries/xcframework/official/4.3.1/TaboolaSDK.xcframework.zip",
+                      checksum: "59c27dfbc6afdda748057660c69a4a0ae86022e4c9463c1f880f984d138e7507")
     ]
 )
